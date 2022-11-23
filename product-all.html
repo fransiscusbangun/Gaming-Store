@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="asset/images/logonav.png" rel="icon" type="image/x-icon" />
+    <title>Gaming Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <img href="#" class="logo" src="asset/images/logonav.png">
+
+        <ul class="menu-list">
+            <div class="icon cancel-btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="index.html#contactUs">Contact Us</a></li>
+            <li><a href="index.html#news">News</a></li>
+
+
+            <div class="icon-social">
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            </div>
+
+        </ul>
+        <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="empty_spcae" style="height: 150px"></div>
+
+   <section id="store" class="store py-5">
+    <div class="container-pf container-fluid">
+        <div class="row-pf">
+            <div class="col-10 mx-auto col-sm-6 text-center">
+                <h1 class="text-capitalize">our <strong class="banner-tittle">product</strong></h1>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+                <a href="#" class="btn btn-outline-dark btn-black text-uppercase filter-btn m-2" data-filter="all">all</a>
+
+                <a href="#" class="btn btn-outline-dark btn-black text-uppercase filter-btn m-2" data-filter="mouse">mouse</a>
+
+                <a href="#" class="btn btn-outline-dark btn-black text-uppercase filter-btn m-2" data-filter="keyboard">keyboard</a>
+
+                <a href="#" class="btn btn-outline-dark btn-black text-uppercase filter-btn m-2" data-filter="chair">chair</a>
+
+                <a href="#" class="btn btn-outline-dark btn-black text-uppercase filter-btn m-2" data-filter="headset">headset</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-10 mx-auto col-md-6">
+                <form>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search Item" id="search-item">
+                    </div> 
+                </form>
+            </div>
+        </div>
+         <div class="row" id="store-items">
+            <!-- mouse -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item mouse" data-item="mouse">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://i.pinimg.com/564x/32/a4/f2/32a4f2cdfe93264fb270f115dfa27664.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">mouse wireless- black</h5>
+                        <p class="text-center">gaming mouse series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item mouse"data-item="mouse">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://cdn.idntimes.com/content-images/community/2018/01/7396afb230c16cc8544b6aa23f8ec1d4-1200-80-e3ba72ab22b09ebcaffe19b362fc039c_600x400.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">mouse wireless- black</h5>
+                        <p class="text-center">gaming mouse series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item mouse"data-item="mouse">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://imageio.forbes.com/specials-images/imageserve/5fdb632441f845948e478140/0x0.jpg?format=jpg&crop=1200,800,x0,y0,safe&width=1200" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">mouse wireless- black</h5>
+                        <p class="text-center">gaming mouse series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- keyboard -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item keyboard"data-item="keyboard">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://i.pinimg.com/564x/4a/cf/51/4acf51ceab9f3a2b200c3252281c0653.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">keyboard</h5>
+                        <p class="text-center">mechanical keyboard series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item keyboard"data-item="keyboard">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://p4.wallpaperbetter.com/wallpaper/111/236/879/keyboards-mechanical-keyboard-hd-wallpaper-preview.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">keyboard</h5>
+                        <p class="text-center">mechanical keyboard series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item keyboard"data-item="keyboard">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/125/800/902/keyboards-mechanical-keyboard-hd-wallpaper-preview.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">keyboard</h5>
+                        <p class="text-center">mechanical keyboard series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- chair -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item chair"data-item="chair">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://i.pinimg.com/564x/49/98/ee/4998ee75592de8c620bfe0ec4ee8dc69.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">chair</h5>
+                        <p class="text-center">gaming chair series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item chair"data-item="chair">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://snpi.dell.com/snp/images/products/large/en-us~AB790464_v1/AB790464_v1.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">chair</h5>
+                        <p class="text-center">gaming chair series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item chair"data-item="chair">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://www.tradeinn.com/f/13831/138316840/trust-gxt-708-gaming-chair.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">chair</h5>
+                        <p class="text-center">gaming chair series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- headset -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item headset"data-item="headset">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://i.pinimg.com/736x/b0/d9/30/b0d9306012d18f3bf8e2bb8ad0c37ce6.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">headset</h5>
+                        <p class="text-center">gaming headset series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item headset"data-item="headset">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/22962878/steelseriesarctis7pplus.jpg" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">headset</h5>
+                        <p class="text-center">gaming headset series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item headset"data-item="headset">
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://bgr.com/wp-content/uploads/2021/08/steelseries-arctis-7p.jpg?quality=82&strip=all" class="card-img-top store-img img-fluid"/>
+                </div> 
+                <div class="card-body-pf">
+                    <div class="card-text-pf d-block justify-content-between text-capitalize">
+                        <h5 id="store-item-name">headset</h5>
+                        <p class="text-center">gaming headset series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   </section>
+
+    <div class="empty_spcae" style="height: 150px"></div>
+
+    <!-- footer start-->
+    <footer>
+        <div class="footer-content">
+            <h3>PT Gaming Store</h3>
+            <p>Gedung Batang Garing Lt.2</p>
+            <p>Jl. Garuda II No. 123, Kelurahan Palangka, Kecamatan Jekan Raya, Kota Palangka Raya, Kalimantan Tengah
+            </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <P>Copyright &copy;2022 Gaming Store. Designed by <span>FXBL</span></P>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector(".gaming").src = anything;
+        }
+    </script>
+    <script>
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+        }
+        cancelBtn.onclick = () => {
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+        }
+        
+    </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
